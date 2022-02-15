@@ -12,6 +12,7 @@ public class MainViewController {
 	Rules rules = new Rules();
 	ScorePanel scorePanel = new ScorePanel();
 
+
 	@FXML
 	Button btn00;
 	@FXML
@@ -71,6 +72,7 @@ public class MainViewController {
 	@FXML
 	Label message;
 	
+
 
 	@FXML
 	public void setClickBtn00() {

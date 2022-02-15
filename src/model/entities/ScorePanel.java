@@ -41,6 +41,8 @@ public class ScorePanel {
 		} else if (winner == 3) {
 			scoreDraw.setText(String.valueOf(scoreDrawSum++));
 			numberOfGames.setText(String.valueOf(numOfGames++));
+			xStreakCurrent.setText(String.valueOf(xStreakCurrentSum = 0));
+			oStreakCurrent.setText(String.valueOf(oStreakCurrentSum = 0));
 		}
 
 	}
